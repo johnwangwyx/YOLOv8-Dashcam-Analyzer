@@ -26,6 +26,8 @@ for video_path, output_path in zip(video_paths, output_paths):
     analyzer.analyze()
 ```
 
+(The next step for this project is to enable cli options with `click` module to allow for cli usage to specify input/output and on/off for real-time annotation display, etc)
+
 ## Example output snippets
 
 ![image](https://github.com/johnwangwyx/YOLOv8-Dashcam-Analyzer/assets/78456315/9b49651d-802d-406f-9cce-82f32fc88c42)
