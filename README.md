@@ -12,9 +12,9 @@ Dashcam Analyzer leverages advanced computer vision technologies to dynamically 
 The system captures video data from dashcams, and processes the video frame-by-frame to detect and classify objects using the ObjectTracker module, which relies on the YOLOv8 object detection model. Each frame is annotated with tracking information, and the analysis can be viewed in real-time or output to a file for subsequent review.
 
 ## Technology Stack
-Python
-OpenCV for video processing
-PyTorch and YOLOv8 for object detection and tracking
+* Python
+* OpenCV for video processing
+* PyTorch and YOLOv8 for object detection and tracking
 
 ## Usage
 Set up the analyzer with the desired video input and output paths, model parameters, and view options. Start the analysis and watch as the system processes the video, providing insightful metrics and visualizations.
